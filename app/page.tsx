@@ -7,7 +7,7 @@ export default function Home() {
   const [loading, setLoading] = useState(false)
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setFile(e.target.files?.[0] ?? null)
+    setFile((e.target as HTMLInputElement).files?.[0] ?? null)
   }
 
   const handleSubmit = async (e: React.FormEvent) => {
