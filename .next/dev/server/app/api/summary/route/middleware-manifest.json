@@ -1,0 +1,42 @@
+{
+  "sorted_middleware": [
+    "/api/summary/route"
+  ],
+  "middleware": {},
+  "instrumentation": null,
+  "functions": {
+    "/api/summary/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/server-reference-manifest.js",
+        "server/app/api/summary/route_client-reference-manifest.js",
+        "server/edge/chunks/_next-internal_server_app_api_summary_route_actions_18b627ce.js",
+        "server/edge/chunks/node_modules_next_dist_esm_5b5f03df._.js",
+        "server/edge/chunks/node_modules_next_dist_compiled_1fe0aaac._.js",
+        "server/edge/chunks/node_modules_next_dist_7bea040f._.js",
+        "server/edge/chunks/edge-wrapper_9ab6d906.js",
+        "server/edge/chunks/node_modules_openai_527d54cd._.js",
+        "server/edge/chunks/[root-of-the-server]__ff2ed0dd._.js",
+        "server/edge/chunks/turbopack-edge-wrapper_f31f0232.js"
+      ],
+      "name": "app/api/summary/route",
+      "page": "/api/summary/route",
+      "matchers": [
+        {
+          "regexp": "^/api/summary(?:/)?$",
+          "originalSource": "/api/summary"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "KaOllhvVDQWp8TQlAPDcKRpE/9oI+cusrzDkavUeO+g=",
+        "__NEXT_PREVIEW_MODE_ID": "75f3128cce9423c31a4ee5eec9fd8d85",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "3b47091cbb1c7573bcad8c0c26599951ff2c1b0642f3a7b10d34e7658d26b789",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "8d7b45bf6c3944b0f35d2be609a58114e0ff3faa080b178c959d7349d3aefd6f"
+      }
+    }
+  }
+}
